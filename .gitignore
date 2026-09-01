@@ -1,0 +1,16 @@
+.DS_Store
+
+# 用户文档与转换产物（可能含敏感内容）
+outputs/*.docx
+outputs/*.zip
+outputs/公式转换器（本地Web应用源码）/
+
+# 本地验证与临时文件
+work/
+
+# Web 应用构建依赖和生成物
+webapp/node_modules/
+webapp/.next/
+webapp/.wrangler/
+webapp/dist/
+webapp/tsconfig.tsbuildinfo
